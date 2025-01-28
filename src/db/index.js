@@ -7,7 +7,11 @@ const ConnectMongoDb = async () => {
       console.log(`MongoDb is connected successfully: ${MongoDbInstance.connection.host}`);
     } catch (error) {
       console.error('Error: ' + error);
+<<<<<<< HEAD
  
+=======
+      process.exit(1);
+>>>>>>> 98361c1a1148dd92a722961d73aed9c163957bbc
     }
   };
   
